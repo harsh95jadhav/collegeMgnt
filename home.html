@@ -1,0 +1,163 @@
+<html>
+
+<head>
+  <title>HOMEPAGE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="homecss.css" </link>
+</head>
+
+<body style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+  <div class="page">
+    <div class="header"> </div>
+    <div class="links">
+      <center>
+        <a href="home.html">HOME</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="newFormType.html">LOGIN</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="admission.html">ADMISSION</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="facility.html">FACILITIES</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="feedback.html">FEEDBACK</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="contactus.html">CONTACT US</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      </center>
+    </div>
+    <div class="slideshow-container">
+      
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="pics/h1.jpg" width="1330px" height="500px">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="pics/h2.jpg" width="1330px" height="500px">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="pics/classroom.jpg" width="1330px" height="500px">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="pics/maxresdefault.jpg" width="1330px" height="500px">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="pics/h5.jpg" width="1330px" height="500px">
+      </div>
+
+
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+    <div class="body">
+      <div class="imagepart">
+        <center><img style="margin-top: 10px; border:dashed 3px  rgb(0, 0, 0); border-radius: 10px; ;" width="140px"
+            height="150px" src="pics/kapoor.jpg">
+          <p>
+            Mr. Dilip Kapoor, B.Pharm., M.S., Ph.D., D.Litt.,
+            Chairman & Secretary
+            Dilkap Educational Institution of Engineering
+            Mr. Dilip Kapoor is the Chairman and Secretary, Dilkap Educational Institution of Engineering. The untiring
+            work of the philanthropist, and the living legend, has been honored with Vidhya Rattan, Rashtriya Rattan,
+            Hind Rattan, and KongunattuSathanaiyalar for his sincere and committed work for the successful enhancement
+            of women and empowerment in different educational genres. Such a benefactor of women hatches vision with
+            mission and fosters their developments in all walks of life. He is a versatile person and a pioneer in the
+            field of women empowerment and a role model to all the young minds. He is a man of wisdom who paves the
+            right path for thousands and thousands of women students.
+          </p>
+          <img style="margin-top: 10px; border:dashed 3px  rgb(0, 0, 0); border-radius: 10px; ;" width="140px"
+            height="150px" src="pics/son.jpg">
+          <p>Mr. Suman Dilip Kapoor
+            Managing Director
+            Mr. Suman Dilip Kapoor, Chairperson, Dilkap Educational Institutions is an embodiment of all virtues playing
+            a greater role in transforming every woman both domestically and professionally into a multi-tasking woman
+            in all aspects. She used to motivate young girls to achieve their goals in all possible walks of life. As a
+            mother, she extends her sympathetic disposition to all the children of our institution. Having a broad
+            outlook, she initiates plenty of good avenues for women. As the lady who has got the competence to guide
+            women aspirants, she is also quite supportive in all endeavours of our beloved Chairman, the real woman
+            behind the successful man.
+          </p>
+      </div>
+      <div class="newspart">
+        <h1>Counselling Code:3353</h1>
+        <h2>NEWS & EVENTS </h2>
+        <hr>
+        <div class="news">
+          <marquee direction="up" height="100%">
+            <h4> OCT 2019-JAN 2020 END SEMESTER EXAMINATION RESULTS</h4><br>
+            <p>Academics schedule for the even semester of the academic year 2019-2020</p>
+            <p>End semester examination question papers</p>
+            <p>end semester examinations answer key with scheme of valuation</p>
+            <hr>
+            <h4>CELEBRATIONS</h4><br>
+            <p>Ganeshostav 2020</p>
+            <p>Durga pooja 2019</p>
+            <p>cultural 2019</p>
+            <p>Thailand tour</p>
+            <hr>
+            <h4>GUIDELINES FOR UG/PG PROJECT REPORT PREPARATION</h4>
+            <hr>
+            <p>annual quality assurance report</p>
+            <p>NAAC self study report</p>
+            <p>antiragging report</p>
+            <h4>WITHDRAWAL APPLICATION</h4><br>
+            <p>application for break of study</p>
+            <p>procedure for obtaining transcripts</p>
+            <hr>
+            <h4>SKILL DEVELOPMENT COURSE REGISTRATION </h4><br>
+            <p>Guidelines for internship training and summer project report preparation</p>
+            <hr>
+            <h4>GATE EXAM DETAILS</h4>
+            <p>materials to prepare gate exams</p>
+            <p>previous year question papers</p>
+            <p>practice test for gate exam 2020</p>
+            <p>Dilkap Colleges and Institutes having Diploma Engineering and Degree Engineering are designed to give
+              students a better future, with world class exposure. With the world of work in mind and a global
+              dimension, we not only offer courses leading to internationally recognized academic awards, but also have
+              an approach designed to equip students with the skills needed for a rewarding career.
+
+              Our aim is to become the preferred destination for students, teachers, researchers and scholars from
+              around the world. The diversity of our graduates reflects our commitment to ensuring that the widest
+              ranges of students are given the chance to benefit from our top quality higher education.</p>
+          </marquee>
+          <center>
+            <p>
+              <font color="blue" style="text-underline-offset:10px ;"> <b style="color:blanchedalmond ;">More
+                  Details</b>
+            </p>
+            </font>
+          </center>
+        </div>
+      </div>
+      <div class="footer">
+        <center>Thank you!! visit again!!!</center>
+      </div>
+
+    </div>
+</body>
+
+</html>
