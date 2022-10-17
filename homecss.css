@@ -1,0 +1,338 @@
+.page
+{margin-left: 75px;
+	 background-color: #5d5a70;
+	width:1340px;
+	height:auto;
+	border-style:groove;
+	
+}
+.header
+{
+	width:1340px;
+	height:100px;
+	border-style:groove;
+	background-image:url( 'pics/dilkap.jpeg');
+	background-repeat:no-repeat;
+	background-position: center;
+	
+}
+.links
+{
+	width:1270px;
+	height:25px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:rgb(0, 57, 127);
+	border-style:groove;
+	margin-left: 35px;
+
+	
+}
+.links a{
+	color:rgb(255, 255, 255);
+	font-family:castellar;
+	text-decoration:dotted ;
+}
+.links a:hover
+{
+	background-color:rgb(0, 0, 0);
+	color:white;
+	
+}
+
+
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container{
+  width :1330px;
+  height:500px;
+  border-style:groove;
+ margin-top:10px;
+ box-shadow: 1px 2px 10px 5px white;
+ 
+
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width:auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top:200px;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.body
+{
+	
+	width:1330px;
+	height:750px;
+	border-style:groove;
+	margin-top:5px;
+
+}
+.body .imagepart
+{width:900px;
+	height:700px;
+	border-style:groove;
+	color:black;
+	font-family:bragley hand ITC;
+	display:inline-block;
+}
+.body .newspart h2
+{
+	color:rgb(255, 255, 255);
+	margin-left:100px;
+	}
+
+.body .newspart 
+{
+	width:418px;
+height:700px;
+border-style:groove;
+float:right;
+}
+.body .newspart .news 
+{
+	width:418px;
+	height:500px;
+}
+.body .newspart h1
+{
+	margin-left:45px;
+	color:rgb(255, 255, 255);
+}
+.body .newspart .news h4
+{
+	color:rgb(22, 38, 186);
+}
+
+.footer
+{
+width:1330px;
+	height:35px;
+	margin-top:5px;
+	background-color:rgb(7, 21, 125);
+	font-family:castellar;
+	border-style:groove;
+	color:rgb(255, 255, 255);
+	text-decoration:bold;
+}
+p{
+	color:rgb(255, 255, 255) ;
+	font-family:lucida calligraphy;
+	font-size:13px;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'poppins',sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(ok.jpg);
+    background-size: cover;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+font-size: 36px;
+font-weight: 500;
+color: #fff;
+}
+.contact .content p{
+    font-weight: 300; 
+    color: #fff;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #FF5733 ;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo .contactForm{
+        width: 100%;
+
+    }
+    }
+
