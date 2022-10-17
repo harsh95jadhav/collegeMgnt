@@ -1,1 +1,1 @@
-# college_Mgmt_System
+# collegeMgnt
